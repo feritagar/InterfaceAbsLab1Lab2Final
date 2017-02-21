@@ -10,24 +10,22 @@ package lab1;
  * @author FA
  */
 public class Startup {
-
+    
     public static void main(String[] args) {
         IntroJavaCourse iJC = new IntroJavaCourse("math", "123-qwe");
         iJC.setCredits(3.0);
-
+        
         AdvancedJavaCourse adv = new AdvancedJavaCourse("sosyal", "123");
         adv.setCredits(5.0);
         
         IntroToProgrammingCourse intPro = new IntroToProgrammingCourse("Intro VB", "VB-120");
         intPro.setCredits(2);
         
-        
         College col = new College(intPro);
-        col.addCourseSemesterInventory(iJC);
+        col.addCourseSemesterInventory(intPro);
         col.addCourseSemesterInventory(adv);
         col.addCourseSemesterInventory(intPro);
         
-
     }
-
+    
 }
