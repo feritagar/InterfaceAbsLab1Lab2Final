@@ -19,5 +19,5 @@ public interface ProgrammingCourse {
     public abstract void setCourseName(String courseName);
     public abstract void setCourseNumber(String courseNumber);
     public abstract void setPrerequisites(String prerequisites);
-    public abstract void setCourseCredits();
+    public abstract void setCourseCredits(double credits);
 }
