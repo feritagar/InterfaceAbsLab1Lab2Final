@@ -11,14 +11,12 @@ package lab1;
  */
 public class College {
 
-    private ProgrammingCourse prgCourse;
+    public College() {
 
-    public College(ProgrammingCourse prgCourse) {
-        this.prgCourse = prgCourse;
     }
 
     public void addCourseSemesterInventory(ProgrammingCourse course) {
-        System.out.println(course.getCourseName()+" has been added to the semester inventory.");
+        System.out.println(course.getCourseName() + " has been added to the semester inventory.");
     }
 
 }

@@ -21,11 +21,11 @@ public class Startup {
         IntroToProgrammingCourse intPro = new IntroToProgrammingCourse("Intro VB", "VB-120");
         intPro.setCredits(2);
         
-        College col = new College(intPro);
+        College col = new College();
         col.addCourseSemesterInventory(intPro);
+        col.addCourseSemesterInventory(iJC);
         col.addCourseSemesterInventory(adv);
         col.addCourseSemesterInventory(intPro);
-        
     }
     
 }
